@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+<div class="card" style="text-align: left">
+    <div class="card-header" id="text-start">
+        Account
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">User Credentials</h5>
+        <p class="fw-bold" style='margin: 0'>{{username}}</p>
+        <p class="fw-lighter text-muted" >USERNAME</p>
+        <a href="/passwordupdate" class="btn btn-primary">Change password</a>
+    </div>
+</div>
+
+{% endblock %}
+
+

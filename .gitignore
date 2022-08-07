@@ -1,0 +1,11 @@
+# Environments
+flask-env/
+venv/
+__pycache__/
+
+# Flask stuff:
+instance/
+flask_session/
+
+# misc
+info.txt
