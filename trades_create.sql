@@ -2,6 +2,7 @@
 --- CREATE TABLE users (id INTEGER, username TEXT NOT NULL, hash TEXT NOT NULL, cash NUMERIC NOT NULL DEFAULT 10000.00, PRIMARY KEY(id));
 --- CREATE UNIQUE INDEX username ON users (username);
 ---
+
 CREATE TABLE trades (
                     id INTEGER NOT NULL,
                     transaction_id INTEGER PRIMARY KEY AUTOINCREMENT,

@@ -9,4 +9,5 @@ flask_session/
 
 # misc
 info.txt
-finance copy.db
+
+trades_create.sql
